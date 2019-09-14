@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230" prefWidth="230" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+      <Button fx:id="btnManage" layoutX="55.0" layoutY="51.0" mnemonicParsing="false" text="Manage Accounts" onMousePressed="#btnManagePressed"/>
+      <Button fx:id="btnAdd" layoutX="68.0" layoutY="97.0" mnemonicParsing="false" text="Add Account" onMousePressed="#btnAddPressed"/>
+      <Button fx:id="btnTransfer" layoutX="61.0" layoutY="150.0" mnemonicParsing="false" text="Transfer Money" onMousePressed="#btnTransferPressed"/>
+   </children>
+</Pane>
